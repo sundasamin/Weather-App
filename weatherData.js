@@ -29,35 +29,35 @@ if(response.status== 404){
 
 if(data.weather[0].main== "Clear")
 {
-    weatherImg.src="../images/clear.png"
+    weatherImg.src="./images/clear.png"
 }
 else if(data.weather[0].main== "Smoke")
 {
-    weatherImg.src="../images/clouds.png"
+    weatherImg.src="./images/clouds.png"
 }
 else if(data.weather[0].main== "Clouds")
 {
-    weatherImg.src="../images/clouds.png"
+    weatherImg.src="./images/clouds.png"
 }
 else if(data.weather[0].main== "Drizzle")
 {
-    weatherImg.src="../images/drizzle.png"
+    weatherImg.src="./images/drizzle.png"
 }
 else if(data.weather[0].main== "Mist")
 {
-    weatherImg.src="../images/mist.png"
+    weatherImg.src="./images/mist.png"
 }
 else if(data.weather[0].main== "Rain")
 {
-    weatherImg.src="../images/rain.png"
+    weatherImg.src="./images/rain.png"
 }
 else if(data.weather[0].main== "Snow")
 {
-    weatherImg.src="../images/snow.png"
+    weatherImg.src="./images/snow.png"
 }
 else
 {
-    weatherImg.src="../images/clear.png"
+    weatherImg.src="./images/clear.png"
 }
 
 weatherDiv.style.display="flex";
