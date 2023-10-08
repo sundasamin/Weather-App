@@ -1,0 +1,25 @@
+.card{
+    padding: 2rem;
+}
+.weatherData{
+    display: none;
+}
+.error{
+    align-self: self-start;
+    color: rgb(177, 0, 0);
+    padding: 5px 0px;
+    display: none;
+}
+input{
+    background-color: rgb(237, 240, 239);
+  border: 1px solid #8d8d8d;
+  outline: none;
+}
+button{
+    background-color: rgb(237, 240, 239);
+  
+}
+input:focus{
+    border: 2px solid #757474;
+
+}
